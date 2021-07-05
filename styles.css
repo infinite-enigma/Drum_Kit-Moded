@@ -78,6 +78,9 @@ footer {
   margin: 10px;
   background-color: white;
 }
+.mobile-input {
+  display: none;
+}
 
 @media (max-width: 720px) {
   h1 {
@@ -105,5 +108,25 @@ footer {
   }
   .set {
     margin: auto;
+  }
+  .mobile-input {
+    display: block;
+    margin: 1rem;
+  }
+  span {
+    color: #dbedf3;
+    font-family: "Arvo", serif;
+    font-style: italic;
+    text-decoration: underline;
+  }
+  input[type="text"] {
+    font-family: "Arvo", serif;
+    color: #da0463;
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: bold;
+    outline: none;
+    caret-color: aqua;
+    letter-spacing: 0.3rem;
   }
 }
