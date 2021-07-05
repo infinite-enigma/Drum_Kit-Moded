@@ -21,7 +21,7 @@ for (let i = 0; i < numberOfBDrums; i++) {
 }
 
 //Detection Keypress
-addEventListener("keypress", function (event) {
+document.addEventListener("keypress", function (event) {
   makeSound(event.key);
 
   buttonAnimation(event.key);
